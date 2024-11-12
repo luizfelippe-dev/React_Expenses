@@ -23,3 +23,24 @@ Certifique-se de ter o Node.js e o npm instalados para rodar este projeto localm
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2. Navegue até o diretório do projeto
+   ```bash
+   cd seu-repositorio
+   
+3. Instale as dependências
+   ```bash
+   npm install
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+
+## Demonstração das Funcionalidades
+Adicionar Transação: O usuário pode adicionar uma nova transação preenchendo a descrição, valor e selecionando uma categoria.
+
+Visualizar Resumo: Uma visão geral mostra o total de receitas, despesas e saldo atual.
+
+Excluir e Editar: Transações individuais podem ser excluídas ou editadas facilmente, mantendo o controle sobre os dados financeiros.
+
+Gráfico de Categorias: Um gráfico de pizza mostra a proporção de gastos por categoria, facilitando a análise.
